@@ -18,8 +18,9 @@ steps:
   - name: 'gcr.io/cloud-builders/gcloud'
     args:
       - 'run'
-      - 'deploy'
-      - 'cicd'
+      - 'services'
+      - 'update'
+      - 'ci-cd'
       - '--image'
       - 'gcr.io/cicd-391211/ci-cd'
       - '--platform'
