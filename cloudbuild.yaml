@@ -27,4 +27,4 @@ steps:
       - 'managed'
       - '--region'
       - 'europe-west1'
-#      - '--allow-unauthenticated'
+      - '--allow-unauthenticated'
